@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 6072936322948180092}
   - component: {fileID: 6072936322948180094}
   - component: {fileID: 6072936322948180095}
+  - component: {fileID: 4809768124087089527}
   m_Layer: 0
   m_Name: WeaponSword
   m_TagString: Untagged
@@ -458,6 +459,19 @@ MonoBehaviour:
   _bulletToSpawn: {fileID: 0}
   _attackAnim: SwordAttack01
   swing: {x: 45, y: -90, z: 90}
+--- !u!65 &4809768124087089527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6072936322948180093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2985052, y: 3.9793081, z: 1}
+  m_Center: {x: 0.011384575, y: -0.23487753, z: 0}
 --- !u!1 &6072936322973844673
 GameObject:
   m_ObjectHideFlags: 0

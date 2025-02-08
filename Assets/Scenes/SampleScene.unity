@@ -643,27 +643,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1945
+      value: 2.2552445
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1945
+      value: 2.2552445
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1945
+      value: 2.2552445
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.26
+      value: 12.72
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.13
+      value: 19.05
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.99
+      value: 40.64
       objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180092, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: m_LocalRotation.w
@@ -697,9 +697,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeaponSword
       objectReference: {fileID: 0}
+    - target: {fileID: 6072936322948180094, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
+      propertyPath: _rotationSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6072936322948180095, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
       propertyPath: _pivotObj
       value: 
+      objectReference: {fileID: 288515245}
+    - target: {fileID: 6072936322948180095, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
+      propertyPath: _useParentRotation
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7312e429145aa284cb0bb0b439092547, type: 3}
@@ -729,6 +737,10 @@ PrefabInstance:
     - target: {fileID: 3520954563696560795, guid: 374554c27d9c42d48b3e457a4c52ecb6, type: 3}
       propertyPath: _rotationSpeed
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520954563696560796, guid: 374554c27d9c42d48b3e457a4c52ecb6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3520954563696560797, guid: 374554c27d9c42d48b3e457a4c52ecb6, type: 3}
       propertyPath: m_RootOrder
@@ -3693,7 +3705,7 @@ MonoBehaviour:
   _useParentRotation: 0
   _pivotObj: {fileID: 288515245}
   _pauseMovementMax: 0.2
-  _bulletToSpawn: {fileID: 0}
+  _bulletToSpawn: {fileID: 7104230207920487134}
   _attackAnim: SwordAttack01
   swing: {x: 45, y: -90, z: 90}
 --- !u!54 &1988916349
@@ -4359,6 +4371,30 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3080001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028568949042517330, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
     - target: {fileID: 6282937660764633287, guid: 3bcf0d3241e663547b668254e1af4843, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4696,6 +4732,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 777549461507342468, guid: a43e1ff23facef5428fea42267f80793, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 982465460017701889, guid: a43e1ff23facef5428fea42267f80793, type: 3}
       propertyPath: m_Enabled
       value: 1
