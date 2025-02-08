@@ -202,7 +202,7 @@ public class PlayerController : MonoBehaviour
     public void EquipWeapon(Weapon weapon)
     {
         _weaponEquipped = weapon;
-        weapon.SetAttachmentParent(GameObject.Find("WeaponLocation"), gameObject);
+        weapon.SetAttachmentParent(GameObject.Find("WEAPON_LOC"), gameObject);
     }
 
     #endregion
