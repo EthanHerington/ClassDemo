@@ -44,7 +44,7 @@ public class PickUpItem : MonoBehaviour
 
 
                 // disable this 'pickup' script
-                enabled = false;
+                enabled = true;
             }
             return;
         }
